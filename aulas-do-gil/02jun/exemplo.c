@@ -22,7 +22,7 @@ int main() {
     printf("String aleatória: ");
     for(i=0; i<TAM; i++) {
         string[i] = 65 + (rand()%26);
-        
+    
         if(rand()%2 == 0) {
             string[i] += 32;
         }  

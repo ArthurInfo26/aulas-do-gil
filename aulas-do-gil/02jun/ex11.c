@@ -17,7 +17,7 @@ int main() {
     char string[TAM];
 
     srand(time(NULL));
-    
+                
     printf("Vetor Aleatorio: ");
     for(i=0; i<TAM; i++) {
         string[i] = 65 +(rand()%26);
